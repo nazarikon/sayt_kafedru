@@ -345,7 +345,7 @@ header {
 		margin: 0;
 	}
 	.menu__item a {
-		font-size: 20px;
+/* 		font-size: 20px; */
 		color: #fff;
 	}
 	.menu__item:after, .menu__item:nth-child(2):after, .menu__item:last-child::after {
