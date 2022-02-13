@@ -188,23 +188,23 @@ new Sim();
 // 	})
 // }
 
-document.querySelectorAll( 'a.menu__item').forEach(link => {
-	link.addEventListener('click',function (event) {
-		event.preventDefault()
+// document.querySelectorAll( 'a.menu__item').forEach(link => {
+// 	link.addEventListener('click',function (event) {
+// 		event.preventDefault()
 
-		const href = this.getAttribute('href').substring(1)
+// 		const href = this.getAttribute('href').substring(1)
 
-		const scrollTarget = document.getElementById(href)
+// 		const scrollTarget = document.getElementById(href)
 
 
-		const topOffset = 0
-		const elementPosition = scrollTarget.
-		getBoundingClientRect().top
-		const offsetPosition = elementPosition - topOffset
+// 		const topOffset = 0
+// 		const elementPosition = scrollTarget.
+// 		getBoundingClientRect().top
+// 		const offsetPosition = elementPosition - topOffset
 
-		window.scrollBy({
-			top: offsetPosition,
-			behavior: "smooth"
-		})
-	})
-})
+// 		window.scrollBy({
+// 			top: offsetPosition,
+// 			behavior: "smooth"
+// 		})
+// 	})
+// })
